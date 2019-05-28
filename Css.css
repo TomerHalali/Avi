@@ -1,0 +1,239 @@
+
+body{
+    background-color: white;
+    /*#e1e1e1*/
+    font-family: David ;
+}
+.main {
+    margin-top: 1px;
+    background-color: rgba(220, 237, 255, 0.3);
+    border-radius: 40px;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+
+#supp p{
+    color: black;
+    font-size: x-large;
+}
+#learn{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("learn.jpg");
+    background-size: cover;
+}
+#reco{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("reco.jpg");
+    background-size: cover;
+
+}
+#supp{
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("abc.jpg");
+    background-size: cover;
+
+}
+
+
+.divForm {
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("contract.jpg");
+    background-size: cover;
+
+}
+
+
+
+
+
+.TimeLinee {
+    margin-top: 50px;
+    background-color: rgb(237, 243, 237);
+    border-radius: 50px;
+    margin-right: 0px;
+    margin-left: 80px;
+
+}
+.callme {
+
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("final.jpg");
+    background-size: cover;
+}
+.callme p{
+
+    color: black;
+}
+
+
+
+.logos img{
+    width:45px;height:45px;border:0;
+}
+
+
+
+
+
+
+
+
+
+/* Nav Bar *//* Nav Bar *//* Nav Bar *//* Nav Bar *//* Nav Bar */
+.bg-img {
+    /* The image used */
+    background-image: url("BgPic.jpg");
+    min-height: 400px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.containerBAR {
+    position: absolute;
+    width: 1189px;
+    margin-top: 358px;
+
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 80px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+
+}
+
+.form-control{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+/*SlidPic*//*SlidPic*//*SlidPic*//*SlidPic*//*SlidPic*//*SlidPic*//*SlidPic*//*SlidPic*/
+
+
+.picInCenter{
+
+    margin-left: 15px;
+    margin-right: 15px;
+    background-image: url("pics.jpg");
+    background-size: cover;
+
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.containerPic {
+    position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
